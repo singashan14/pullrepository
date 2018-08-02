@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: yes
+  tasks
+   - file: path=/home/rps/one.txt state=touch
+
